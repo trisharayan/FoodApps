@@ -1,41 +1,41 @@
-# 🍳 Smart Recipe Assistant
+#  Smart Recipe Assistant
 
 An AI-powered recipe generation and meal planning application built with React, Node.js, and OpenAI. This comprehensive cooking assistant helps users create custom recipes, plan meals, analyze nutrition, and discover cooking tips using artificial intelligence.
 
-## ✨ Features
+##  Features
 
-### 🤖 AI-Powered Recipe Generation
+###  AI-Powered Recipe Generation
 - **Custom Recipe Creation**: Generate unique recipes based on your preferences and available ingredients
 - **Dietary Restrictions**: Support for vegetarian, vegan, gluten-free, keto, and other dietary needs
 - **Cuisine Preferences**: Generate recipes from Italian, Mexican, Asian, Mediterranean, and more
 - **Skill Level Adaptation**: Recipes tailored to beginner, intermediate, or advanced cooks
 - **Nutritional Optimization**: AI ensures recipes meet your calorie and nutritional goals
 
-### 📊 Nutritional Analysis
+###  Nutritional Analysis
 - **Detailed Nutrition Info**: Calories, protein, carbs, fat, fiber, sugar, and sodium
 - **Ingredient Analysis**: AI-powered nutritional breakdown of ingredients
 - **Daily Tracking**: Monitor your daily nutritional intake
 - **Health Goals**: Support for various dietary and health objectives
 
-### 🗓️ Smart Meal Planning
+###  Smart Meal Planning
 - **Weekly Meal Plans**: AI-generated 7-day meal plans
 - **Nutritional Balance**: Ensures balanced meals throughout the week
 - **Dietary Compliance**: Respects your dietary restrictions and preferences
 - **Shopping Lists**: Automatic ingredient lists for meal plans
 
-### 👨‍🍳 Cooking Assistant
+### Cooking Assistant
 - **Cooking Tips**: Expert advice and techniques for each recipe
 - **Recipe Variations**: Alternative versions and modifications
 - **Ingredient Substitutions**: Smart suggestions for ingredient replacements
 - **Cooking Techniques**: Step-by-step guidance and best practices
 
-### 👤 User Management
+### User Management
 - **User Registration & Authentication**: Secure JWT-based authentication
 - **Personal Profiles**: Save preferences and dietary restrictions
 - **Favorite Recipes**: Bookmark and organize your favorite recipes
 - **User Preferences**: Personalized experience based on your cooking style
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Backend
 - **Node.js** with Express.js framework
@@ -54,7 +54,7 @@ An AI-powered recipe generation and meal planning application built with React, 
 - **React Hot Toast** for notifications
 - **Axios** for API communication
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -150,7 +150,7 @@ smart-recipe-assistant/
 └── README.md
 ```
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - User registration
@@ -185,7 +185,7 @@ smart-recipe-assistant/
 - `GET /api/nutrition/stats/overview` - Get nutrition statistics
 - `POST /api/nutrition/daily-totals` - Calculate daily nutrition
 
-## 🎯 Usage Guide
+## Usage Guide
 
 ### Getting Started
 1. **Register an account** or sign in with existing credentials
@@ -219,7 +219,7 @@ smart-recipe-assistant/
 4. Analyze ingredient nutrition
 5. Get recommendations based on your health goals
 
-## 🔒 Security Features
+## Security Features
 
 - **JWT Authentication**: Secure token-based authentication
 - **Password Hashing**: bcryptjs for secure password storage
@@ -228,7 +228,7 @@ smart-recipe-assistant/
 - **Rate Limiting**: API request rate limiting
 - **Input Validation**: Server-side validation for all inputs
 
-## 🧪 Sample Data
+## Sample Data
 
 The application comes with sample recipe data including:
 - Classic Margherita Pizza
@@ -243,7 +243,7 @@ Each recipe includes:
 - Cooking times and difficulty levels
 - Cuisine classification and tags
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Build
 ```bash
@@ -267,7 +267,7 @@ JWT_SECRET=your_secure_jwt_secret
 DB_PATH=./data/recipes.db
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -275,18 +275,18 @@ DB_PATH=./data/recipes.db
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OpenAI** for providing the GPT-4 API for recipe generation
 - **React Team** for the amazing frontend framework
 - **Tailwind CSS** for the utility-first CSS framework
 - **Lucide** for the beautiful icons
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 1. Check the existing issues in the repository
